@@ -1,0 +1,154 @@
+
+Download XAMPP=[
+  apache(8080/90){
+
+  }
+  mariaDB/MySQL
+  PHP
+  PERL
+]
+
+
+modelViewController
+PHP- laravel
+  Integracion de estilos y plantillas en una aplicacion laravel
+apis with RESTdul node and Express
+Canvan Cakes
+-----------------------------
+COMMANDOS:
+  ctrl-alt-supr
+  windows-r -> (services.msc)
+  cmd ->(ipconfig)
+
+FUllstack
+    cloud computing  APIs
+    devOps -> Desplegado de apps, github deployment, pruebas unitarias.
+    Infraestructura
+    Backend
+    Frontend
+
+EDteam webmaster fullstack (fullstack dev): Se encarga de todos el proceso, desde planifiacion, desarrollo, mantenimiento, etc.
+
+switches, paneles de parcheo, 64 puertos, lans(local area network)
+
+servidor: dispositivos que anteienden a los clientes. Los servidores pueden tener diferentes funciones y proporcionar una variedad de servicios, como almacenamiento de archivos, correo electrónico, acceso a sitios web, administración de bases de datos, entre otros. hace procesamiento.
+contac: definir que switch utiliza.
+routers: 
+ux (user experience): criterios para sentirse comodo usando una aplicacion.
+ui(user interface): 
+clientes: programas que abren la app, (chrome, firefox, etc.)
+
+
+
+ROLES 
+  cloud manager: define los requerimientos y los implmenta en la nube.
+  administrador de  bases de datos: diseña, crea y administra las bases de datos.
+  administrador de base de datos: diseña, crea y administra las bases de datos.
+  diseñador ui/ux: define la organizacion de la interfaz de la app.
+  programdor frontend: Programa la logica de la app del lado del cliente.
+  Full stack: aquel que cumple con tdosos los roles anteriores.
+
+
+°°°Modelo cliente-servidor:
+
+[software en el servidor: Ngix, Apache]
+
+  Modulo de aplicacion distribuida en el que las atareas se reparten enre los proveedores de recursos o servicios, llamados servidores, y los demandantes, (clientes), , que realizan peticiones a otro programa, el servidor, que le da una respuesta.
+
+Estructura:
+  cliente (dispositivos desde los cuales se consume la informacion web) -> Peticion-> Servidor(almacena sitios web y recuros)
+
+Definiciones propias:
+  Esquema de implementacion(sistema ) en el cual existe una comunicacion entre proveedores de servicios(como recursos, datos, almacenamiento) a clientes que son dispositivos que hacen una solitud para estos servicios. 
+
+  Esquema en el que un proveedor ofrece diferentes elementos a clientes.
+
+Protocolo:  Conjunto de reglas para establacer una comunicacion entre dos puntos(aplicaciones)
+
+DNS: servidores de nombre de dominio. Es un sistema de nombramiento jerarquico y decentralizado para los recursos conectados a internet.
+DNS mantiene una lista de nombres de dominios junto con sus recursos, como la direccion ip a la que están asociados.
+Su funcion más prominente es la traduccion de dominios con nombres amigables como mozilla. org a una direccion Ip como 192.0.2.172
+
+IP: Internet protocol, una direccion IP es un numero usado como direccion para dispositivo en una red Ip unica.
+
+URL: Uniform Resource Locator
+
+Gestores de bases de datos: MySQL
+Protocolos hypertext transfer protocol
+Servicios tienen un puerto asociado. ejemplo http->  puertos (80/8080/8081)
+servidos 443
+
+FTP -> file transfer protocol usado en hosting, al subir arhivos a un cliente ftp puertos(20)
+
+SMTP -> puertos(25)
+
+pop3 -> Post Office protocol usado para resibir email del cliente 
+
+
+capa presentacion: html/js/css
+  cleinte routwe
+capa logica. PHP
+  dns servidor
+capa de datos. MySQL
+  base de datos
+
+Lenguaje del lado del cliente:js/css/html  node.js
+Lenguaje del lado del servidor: c#, node.js etc.
+
+Compiladores:
+
+fase sintesis-> Codigo objeto(el codigo sin error que se ejecutará.)
+  traductor: dos tipos de traductores. interprete, compilador
+  interprete:  fase analisis-> procesos de linea por linea de lexico, sintactico, semantico luego genera codigo objeto.
+  compilador:  fase analisis-> todo el codigo, termina y sigue con semantico, etc.
+  lexico: analizar las palabras que pertencen al lenguaje.
+  sintaxis: orden y relacion de las palabras.
+  Semantica:Parte de la lingüística que estudia el significado de las expresiones lingüísticas.
+
+-----------------------------
+NOAM CHHOANSKY  
+
+x= sistema operativo, 
+a= servidor web apache
+m= base de datos como MySQL and mariaDB
+p=lenguaje de programacion PHP soporta difrerentes sistemas de bases de datos.
+p=lenguaje de programacion perl enfocado en la administración del sistema y programacion de la red.
+
+base de datos: Conjunto de valores almacenados bajo un cierto contexto libres de ambiguedad.
+datos: 
+
+apache corre en el puerto 80 (localhost:80 [default] or localhost:8080)
+
+localHost/curso
+
+direccion  /localHost == 127.0.0.1
+terminal: mkdir create file
+
+emmet code: html tag>lorem*2
+
+git: sistema de control de versiones que lleva un registro de todos los cambios y avances de tu proyecto.
+
+ se compiló sin excepciones.
+ _______________________________________________
+
+ instalacion de git y creacion de repositorio github 
+
+ 
+ 
+ echo "# cursoTorresFrias" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tlayolli/cursoTorresFrias.git
+git push -u origin main
+
+---------------------------------------------------
+
+Pasos para modificar el repositorio
+1  git status
+2  git add . <(repositorio local)>
+3  git commit -a -m "Message" <para etiquetar los cambios>
+4  git pull origin main <Bajar el repositorio 
+      (para que no se   mezclen las ramas remotas con loscal.)>
+5  git push origin main <Subir al repositorio>
