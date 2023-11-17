@@ -1,3 +1,18 @@
+______                    _            _                 
+|  _  \                  (_)          (_)              _ 
+| | | |___  ___  ___ _ __ _ _ __   ___ _  ___  _ __   (_)
+| | | / _ \/ __|/ __| '__| | '_ \ / __| |/ _ \| '_ \     
+| |/ /  __/\__ \ (__| |  | | |_) | (__| | (_) | | | |  _ 
+|___/ \___||___/\___|_|  |_| .__/ \___|_|\___/|_| |_| (_)
+                           | |                           
+                           |_|                           
+
+Descripcion:
+Este texto son notas PERSONALES de la clase del profesor Torres Frias. Favor de usar con discrecion y bajo tu propio criterio.
+
+Nota: Cada "-----" separa las notas de una clase de la otra.
+
+--------------------------------
 
 Download XAMPP=[
   apache(8080/90){
@@ -106,7 +121,7 @@ fase sintesis-> Codigo objeto(el codigo sin error que se ejecutará.)
   Semantica:Parte de la lingüística que estudia el significado de las expresiones lingüísticas.
 
 -----------------------------
-NOAM CHHOANSKY  
+NOAM CHOANSKY  
 
 x= sistema operativo, 
 a= servidor web apache
@@ -144,11 +159,24 @@ git remote add origin https://github.com/Tlayolli/cursoTorresFrias.git
 git push -u origin main
 
 ---------------------------------------------------
+docker y express
 
-Pasos para modificar el repositorio
-1  git status
-2  git add . <(repositorio local)>
-3  git commit -a -m "Message" <para etiquetar los cambios>
-4  git pull origin main <Bajar el repositorio 
-      (para que no se   mezclen las ramas remotas con loscal.)>
-5  git push origin main <Subir al repositorio>
+
+  Pasos para modificar el repositorio
+  1  git status <Muestra donde estamos, los cambios que se hicieron localmente, etc.>
+  2  git add . <repositorio local>  organiza todos los cambios presentados.
+  3  git commit -a -m "Message" <para etiquetar los cambios> records changess made to the projects files
+        git commit -amend  -m <"Updated commit messege ">
+  4  git pull origin main <Bajar el repositorio 
+        (para que no se  mezclen las ramas remotas con loscal.)>
+  5  git push origin main <Subir al repositorio> push all commits to remote repository.
+
+OTROS COMANDOS DE UTILIDAD: 
+
+  git branch <new-branch-name> create new branch
+  git checkout  <new-branch-name> switch to new branch
+  git switch <Branch-name> switch to another branch
+  git checkout -b <new-branch-name> creates a new branch with name new-branch-name and switches to it
+  git log for checking the commit history.
+  git pull used for updating your local repository to the latest version of the connected repository.
+
