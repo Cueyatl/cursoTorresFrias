@@ -151,7 +151,7 @@ git: sistema de control de versiones que lleva un registro de todos los cambios 
  
  
  echo "# cursoTorresFrias" >> README.md
-git init
+git init              inicia un repositorio git.	
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -159,14 +159,19 @@ git remote add origin https://github.com/Tlayolli/cursoTorresFrias.git
 git push -u origin main
 
 ---------------------------------------------------
-docker y express
+Nodos y grafos={
+    programas: python, nodejs, docker y express
+    matematicas: teorias de grafos
+    estructuras: listas, matrices
+    programacion: algoritmos buscqueda de grafos.
+}
 
 
   Pasos para modificar el repositorio
   1  git status <Muestra donde estamos, los cambios que se hicieron localmente, etc.>
-  2  git add . <repositorio local>  organiza todos los cambios presentados.
+  2  git add . <repositorio local>
   3  git commit -a -m "Message" <para etiquetar los cambios> records changess made to the projects files
-        git commit -amend  -m <"Updated commit messege ">
+        			git commit -amend  -m <"Updated commit messege ">
   4  git pull origin main <Bajar el repositorio 
         (para que no se  mezclen las ramas remotas con loscal.)>
   5  git push origin main <Subir al repositorio> push all commits to remote repository.
@@ -179,4 +184,55 @@ OTROS COMANDOS DE UTILIDAD:
   git checkout -b <new-branch-name> creates a new branch with name new-branch-name and switches to it
   git log for checking the commit history.
   git pull used for updating your local repository to the latest version of the connected repository.
+  git fetch descarga todos los cambios del repositorio remoto al local. x
+  git diff master origin/master Compara el repositorio local con el repositorio remoto.
 
+  Pasos para unir ramas de codigo.
+  git status 
+  git checkout <Branch-to-receive-merge> cambia a la rama que quieres entrar.
+  git merge <nombre-de-la-rama-que-recibira-cambios> rama para fusionar.
+  Prueba el codigo, checa el output para resolver conflictos de fusion (merge conflict)
+  git commit
+  git push
+
+[redundancy and version history
+Rollbacks]??
+
+-----------------------------------------------
+ejemplos de protocolos en informatica:
+	cdn 
+	url
+	
+git merge
+-----------------------------------------------
+
+Usuario->(solicita){
+  validar=solictar
+  el controlador valida  la solicitud, si es valido regresa con vista(datos )->{
+    responde visualmente al usuario.
+  } 
+  
+}
+
+al accessar al algun origen de datos se exige un intermediario, un modelo(php) (DAO Data aaccess Object)
+
+vista(css, html, javascript)
+controlador(php)
+
+Lavarabel (from PHP), nodejs
+
+metadato=datos de los datos.
+maquetacion= como bas a determinar el html
+
+
+
+( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)
+ TODO:
+ 1) agregar estructuras.
+  navbar
+    dos niveles{ 
+      [logo, buscar, soporte, lista de deseos,iniciar sesion, mexico]
+      [juegos nuevos, consolas, noticias y events]
+    }
+  hero
+  centered, border rounded, 
