@@ -236,3 +236,34 @@ maquetacion= como bas a determinar el html
     }
   hero
   centered, border rounded, 
+
+
+  hello world 1/30/2024
+  sql databases
+  two types->{
+    DDL.METODS{DROP, CREATE, ALTER}
+    DML
+  }
+
+  inside /XAMPP/MySQL/bin
+
+  prompt:  mysql -u root -p
+  password? KEY enter
+
+  puertos:
+    Mysql : 3306
+    postgreSql: 5432
+    sqlServer_ 1433
+/n secuencias de escape.
+    son diferents puerto e ip.
+
+ingresar a la maquina de otro: 
+ mysql -h 192.168.100.232 -u alumno -p
+ luego:
+ use cursocuc; //use this for entering a database
+ luego:
+ show tables;
+ php Concepts
+   associative arrays.
+   -> (esta pinshe flechita).
+   

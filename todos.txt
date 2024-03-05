@@ -1,0 +1,85 @@
+1.-
+  remake nav.{
+    it must fuze with the background colors
+    elements must be in compnay of an icon or only icons.
+    elements need to have opacity-50 and be in text-light or similar
+    while hovering no opacity and makes a little jump (animation pending). 
+    Change logo to something more professional and futuristic.
+  } 
+
+contact{
+  fix color of letters in navbar
+}
+
+main{
+  fix navbar to universal styles.
+  add images
+  
+  divide into various sections
+    main hero with product in two rows{
+      <<<>>> Styles:
+      needs a gradient and divided into "waves" how to achieve this is crazy
+      gradient from top to bottom from darker thones to lighter ones.
+      hero tittle: probs. use different color gradients for each word.
+      button call to action: white and rounded, text and a little icon inside.
+
+      row.{
+        °title:
+         A classic reborn for the modern era.
+        °text one:
+         Elevate your gaming experience with the iconic Game Boy Advance,
+           now available at just $799. Immerse yourself in the timeless 
+           charm of retro tech, appealing to your inner gamer.
+        °text two:
+          Why settle for ordinary when you can own a piece of gaming
+          history? The RetroMaster GBA delivers more than just pixels;
+          it resurrects memories and fuels your passion for gaming.
+        °aboce and inside button.
+           Join the community of enthusiasts who appreciate
+            the artistry of vintage gaming.
+      }
+      row{
+        image of a gameboyHD
+      }
+
+      three cards with tittle and little text
+      °tittle:
+      RetroMaster GBA: Elevate Your Gaming Legacy
+      °text: Unleash the extraordinary with the RetroMaster GBA – the
+       ultimate blend of classic nostalgia and cutting-edge features.
+
+       it's a testament to your gaming legacy. Discover more about the
+        coolest handheld experience and secure your RetroMaster GBA today.
+      °card1:
+        °tittle:
+          Power Packed Performance
+        °text:
+        Experience the thrill of gaming with the RetroMaster GBA's powerful performance.
+        Boasting enhanced processing speed and vibrant graphics, 
+        Unleash the full potential of your favorite retro games with unmatched performance and relive the glory days of gaming. 
+
+        °image:
+        gameboyGreenChill
+        button: explore
+      °Card2:
+       °tittle:
+          Portability Redefined
+        °text:
+        Slim, sleek, and ready to go wherever you do, this Game Boy Advance fits perfectly into your on-the-go lifestyle. 
+        Rediscover the joy of gaming anytime, anywhere – whether you're commuting, traveling, or simply taking a break. 
+
+        °image:
+        gameboyChill
+      °Card3:
+        °Tittle:
+          Connectivity for the Modern Gamer
+        °text:
+        Bridge the gap between the past and the present with modern connectivity features. Link up with friends for multiplayer
+         battles, connect to your favorite streaming devices, and share your gaming moments seamlessly. 
+      °image:
+        gameboy720
+    }
+ incluir video https://www.youtube.com/watch?v=2-R-F-A48FI
+    
+
+}

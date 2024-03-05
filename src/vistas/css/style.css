@@ -1,0 +1,174 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather:ital@0;1&family=Press+Start+2P&display=swap');
+
+ /*Google icons*/
+
+.material-symbols-outlined {
+  font-variation-settings:  'FILL' 0,  'wght' 400,  'GRAD' 0,  'opsz' 24}
+
+/* Universal styles */
+/* Development helpers */
+.borders{
+  border: solid 2px black;
+
+}
+
+.fullPage{
+  
+  height:100%;
+  width: 100%;
+  
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  
+}
+.card{
+  height: 46em;
+}
+ .center a{
+  color: white;
+  opacity: 0.4;
+  text-decoration: none;
+  transition:opacity 0.8s;
+  letter-spacing: 1.4px;
+}
+.center a:hover{
+  opacity: 1;
+}
+.bodyBgColor{
+  background-color: rgb(1, 30, 78);
+}
+nav .navbar-brand{
+  color: red;
+  font-family: sans-serif;
+  transition: color 0.2s;
+}
+nav .navbar-brand:hover{
+  color: yellow;
+}
+
+/* End of Universal styles */
+.column {
+  background-color: antiquewhite;
+}
+
+.column img  {
+  width: 5em;
+}
+.spacing {
+  margin-bottom: 2em;
+  margin-top: 4em;
+}
+
+ h1, h2, h3, h4, h5, h6{
+  color: rgb(255, 255, 255);
+font-family: 'Press Start 2P', system-ui;
+
+}
+.bg-orange{
+  background-color: #fd7e14;
+}
+ p, a, span{
+    color:white;
+    font-family: 'Inconsolata', monospace;
+}
+button{
+  font-family: 'Merriweather', serif;
+}
+.card .titleSize{
+  min-height: 3em;
+}
+/* little animations*/
+.jump:hover {
+  animation: jump 1s ease ;
+}
+@keyframes jump {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-10px);}
+	60% {transform: translateY(-4px);}
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  /* <!-- HTML !-->
+<button class="button-87" role="button">Button 87</button> */
+
+
+
+
+/* <!-- HTML !-->
+<button class="buttonEmi" role="button">Button 50</button> */
+
+/* CSS */
+.buttonBlue{
+  background-image: linear-gradient(45deg, #2f82ff 0%, #2719f0  51%, #8306cc  100%);
+
+}
+.buttonOrange{
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+
+}
+.buttonEmi {
+  appearance: button;
+  background-color: #000;
+  color: white;
+  background-size: 200% auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: #3f3f3f 3px 3px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  transition: 0.5s;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0.2em 10px 0.5em 10px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  
+  touch-action: manipulation;
+  
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.buttonEmi:focus {
+  text-decoration: none;
+}
+
+.buttonEmi:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttonEmi:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 2px 5px inset;
+  transform: scale(0.95);
+  outline: 0;
+}
+
+.buttonEmi:not([disabled]):active {
+  box-shadow: #d3d3d3 0.5px 1px 0 0, #000 1px 2px 0 1px;
+  transform: translate(4px, 4px);
+}
+
+@media (min-width: 768px) {
+  .buttonEmi {
+    padding: 12px 50px;
+    
+    
+  }
+}

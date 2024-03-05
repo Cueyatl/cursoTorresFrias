@@ -1,0 +1,38 @@
+
+.shadesPurple{
+  background-color: rgb(45,13,148);
+}
+.shadesBlue{
+  background-color: rgb(8, 8, 70);
+
+}
+.shadesBlueTwo{
+  background-color: rgb(70, 61, 178);
+}
+.shadesBlueThree{
+  background-color: #5FBDFF;
+}
+.shadesBlueFour{
+  background-color: #610C9F;
+}  
+.shadesPurple{
+  background-color: #756AB6;
+}
+.shadesPink{
+  background-color: #E9A8F2;
+}
+
+/* flex direction 
+  flex
+  flex wrap
+  display: flex
+  
+*/
+.box{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  width: 10em;
+  height: 10em;
+  border: solid black 2px; 
+}

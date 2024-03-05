@@ -1,0 +1,55 @@
+body{
+  height: 90vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bgContainer{
+  margin-top: 0.1em;
+  left: 0;
+  position: absolute;
+  height:100vh;
+  width: 103%;
+  border-radius: 10%;  
+}
+.bgColors{
+bottom: 0;
+  left: 0;
+  position:  absolute;
+  height: 95%;
+  width: 95%;
+  border-radius: 0% 10% 5% 10%;
+}
+.redOne{
+  background-color: rgb(242, 51, 22);
+}
+.orangeOne{
+  background-color: rgb(245, 106, 45);
+}
+.orangeTwo{
+  background-color: rgb(244, 166, 104);
+}
+.orangeThree{
+  background-color: rgb(240, 213, 168);
+}
+.blueOne{
+  background-color: rgb(100, 161, 146);
+}
+.blueTwo{
+  background-color: rgb(6, 108, 142);
+}
+.blueThree{
+  background-color: rgb(6, 108, 142);
+}
+
+
+
+
+/*red  rgb(242,51,22) */
+/* rgb(245,106,45) orange */
+/* rgb(244,166,104) orange 2 */
+/* rgb(240,213,168) orange 3 */
+/* rgb(100,161,151) blue  */
+/* rgb(2,132,146) blue 2 */
+/* rgb(6,108,142) blue 3 */
+/* rgb(1,30,78) blue background */
+
