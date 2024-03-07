@@ -1,25 +1,38 @@
-
-.shadesPurple{
-  background-color: rgb(45,13,148);
+.shadesPurple {
+  background-color: rgb(45, 13, 148);
 }
-.shadesBlue{
+
+.shadesBlue {
   background-color: rgb(8, 8, 70);
 
 }
-.shadesBlueTwo{
+
+.shadesBlueTwo {
   background-color: rgb(70, 61, 178);
 }
-.shadesBlueThree{
+
+.shadesBlueThree {
   background-color: #5FBDFF;
 }
-.shadesBlueFour{
+
+.shadesBlueFour {
   background-color: #610C9F;
-}  
-.shadesPurple{
+}
+
+.shadesPurpleFive {
   background-color: #756AB6;
 }
-.shadesPink{
+
+.shadesPink {
   background-color: #E9A8F2;
+}
+
+.gradientOne {
+  background: rgb(2, 0, 36);
+  background:
+       linear-gradient(356deg, rgba(2, 0, 36, 1) 0%,
+      rgba(8, 8, 124, 1) 13%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 /* flex direction 
@@ -28,11 +41,11 @@
   display: flex
   
 */
-.box{
+.box {
   display: flex;
   align-items: center;
-  justify-content:center ;
+  justify-content: center;
   width: 10em;
   height: 10em;
-  border: solid black 2px; 
+  border: solid black 2px;
 }
