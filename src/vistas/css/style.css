@@ -3,11 +3,18 @@
  /*Google icons*/
 
  .material-symbols-outlined {
-   font-variation-settings: 'FILL'0, 'wght'400, 'GRAD'0, 'opsz'24
+   font-variation-settings:
+    'FILL'0,
+     'wght'400,
+      'GRAD'0,
+       'opsz'24
+       
  }
 
  /* Universal styles */
-
+.symbolNav{
+  font-size: 6em;
+}
  /* Development helpers */
  .borders {
    border: solid 2px black;
@@ -16,7 +23,7 @@
 
  .fullPage {
 
-   height: 100%;
+   height: auto;
    width: 100%;
 
  }
@@ -27,6 +34,21 @@
    /* End of development helpers */
    /* Media queries */
  }
+ .navbar ul span, .navbar ul a {
+  color: #E9A8F2;
+  font-size: 1.8em;
+  text-align: center;
+  text-justify: auto;
+}
+
+#carousel{
+    
+  width: 100%;
+  display: flexbox;
+  margin: 0 auto;
+  padding-left: 2em;
+  padding-right: 3em; 
+}
 
  @media only screen and (max-width: 991px) {
    .card {
@@ -35,17 +57,72 @@
 
  }
 
- @media (min-width: 768px) {
-   .buttonEmi {
-     padding: 12px 50px;
-
-
-   }
+ @media(min-width: 0px){
+  #mainImage{
+    content: url('../assets/images/gameBoyBanner.jpg');
+    width: 100%;
+    height: max-content;
+  }
+  .navbar ul span, .navbar ul a {
+  color: #E9A8F2;
+  font-size: 1.8em;
+  }
  }
 
+ @media (min-width:539px){
+  .navbar ul span, .navbar ul a {
+    font-size: 1.4em;
+  }
+ }
+
+ @media (min-width: 719px) {
+
+   .buttonEmi {
+     padding: 12px 50px;
+   }
+   #mainImage{
+    content: url('../assets/images/gameBoyBanner.jpg');
+    width: 100%;
+    height: max-content;
+  }
+  .navbar ul span, .navbar ul a {
+    font-size: 1.1em;
+  }
+  #carousel{
+    padding-left: 0em;
+  padding-right: 0em;
+  }
+  
+  .carouselBg{
+    background-image: url('../assets/images/gameBoyBanner.jpg');
+    
+    
+
+  }
+ }
+
+@media (min-width:992px){
+  #mainImage{
+    content: url('../assets/images/gameboyHD.jpg');
+  }
+  .spacer{
+    aspect-ratio: 760/420;
+   }
+   .navbar ul span, .navbar ul a {
+
+    font-size: 1.2em;
+  }
+  
+}
+ @media(min-width:1139px){
+  }
+  
+  #cardsNcatch{
+    height: fit-content;
+  }
  /* End of media queries */
  .card {
-   height: 46em;
+   height: fit-content;
  }
 
  .center a {
@@ -103,17 +180,16 @@
    background-color: #fd7e14;
  }
 
- .emiHeroNav{
-  background: url("/assets/images/waveOne.svg") no-repeat center;
-background-image: url("/assets/images/waveOne.svg");
-background-size: contain;
-
- }
+ 
 /* End of colors */
+.navbar a{
+  color: #E9A8F2;
+
+}
 
  p,
  a,
- span {
+span {
    color: white;
    font-family: 'Inconsolata', monospace;
  }

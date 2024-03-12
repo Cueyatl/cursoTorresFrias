@@ -3,12 +3,13 @@
 }
 
 .shadesBlue {
-  background-color: rgb(8, 8, 70);
+  background-color: #080846;
 
 }
 
 .shadesBlueTwo {
-  background-color: rgb(70, 61, 178);
+  background-color: #463db2;
+  
 }
 
 .shadesBlueThree {
@@ -27,12 +28,40 @@
   background-color: #E9A8F2;
 }
 
+
+
 .gradientOne {
   background: rgb(2, 0, 36);
   background:
        linear-gradient(356deg, rgba(2, 0, 36, 1) 0%,
       rgba(8, 8, 124, 1) 13%,
       rgba(0, 212, 255, 1) 100%);
+}
+/* Background for hero div. */
+.spacer{
+  
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer1{
+  background-image: url('../assets/images/waves_two.svg');
+}
+.layer2{
+  background-image: url('../assets/images/wave-haikeipart2.svg');
+}
+
+/* End of background for hero div */
+
+/* Text styles */
+h1 {
+  font-size: 48px; /* Adjust as needed */
+  background-image: linear-gradient(to right, yellow, red);
+  background-clip: text;
+  -webkit-background-clip: text; /* For compatibility */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; /* For compatibility */
 }
 
 /* flex direction 

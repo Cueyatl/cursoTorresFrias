@@ -19,7 +19,7 @@
         function UPDATE($idComentario, $nombre, $email, $telefono, $comentario){
             $conexion = new Conexion();
             $mysqli = $conexion->crearConexion();
-            $sql = "UPDATE tblComentario SET nombre = '".$nombre."', email = '".$email."',
+            $sql = "UPDATE tblComentarios SET nombre = '".$nombre."', email = '".$email."',
             telefono = '".$telefono."', comentario = '".$comentario."' 
             WHERE idComentario = ".$idComentario;
             if( $mysqli->query($sql) == TRUE ){
@@ -33,13 +33,14 @@
 
         function DELETE($idComentario){
             $conexion = new Conexion();
-            $sql = "DELETE FROM tblComentario WHERE idComentario = ".$idComentario;
-            if( $conexion->query($sql) == TRUE ){
+            $mysqli = $conexion->crearConexion();
+            $sql = "DELETE FROM tblComentarios WHERE idComentario = ".$idComentario;
+            if( $mysqli->query($sql) == TRUE ){
                 return "Borrado Exitoso";
             }else{
                 return "Ocuerrió un error al borrar el registro";
             }
-            $conexion->close();
+            $mysqli->close();
         }
 
         function SELECT(){

@@ -24,6 +24,13 @@
             $clientes = new ClientesModel();
             $res = $clientes->UPDATE($idComentario,$nombre,$email,$tel,$coment);
             echo $res;
+            break;
+        case 3:
+            $idComentario = $_POST['idComentario'];
+            $clientes = new ClientesModel();
+            $res = $clientes->DELETE($idComentario);
+            echo $res;
+            break;
         case 4: // Consultar los datos de la tabla
             $clientes = new ClientesModel();
             $getComments = $clientes->SELECT();
