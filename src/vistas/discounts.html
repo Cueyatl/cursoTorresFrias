@@ -44,28 +44,28 @@
           
           <button 
           type="button" 
-          class="btn text-white   " 
+          class="btn text-white" 
           data-bs-dismiss="offcanvas" aria-label="Close">
             <span class="material-symbols-outlined">
               close
               </span>
           </button>
         </div>
-        <div class="offcanvas-body d-flex  justify-content-end  shadesBlueTwo  text-sm-end text-end ">
+        <div class="navTransparent-md offcanvas-body   justify-content-end  shadesBlueTwo  text-sm-end text-end ">
           <ul class="navbar-nav     mb-lg-0 alignt-items-end justify-content-end  ">
-            <li class="center nav-item px-3 " id="Home">
+            <li class="center py-sm-3  nav-item px-3 " id="Home">
               <a class="active d-flex jump " href="./index.html"  aria-current="page" style="cursor: pointer;">
                 <span class="material-symbols-outlined ">home</span>Home</a>
             </li>
-            <li class="center nav-item px-3 " id="Discounts">
+            <li class="center nav-item px-3 py-3 " id="Discounts">
               <a class="active d-flex jump" href="./discounts.html">
                 <span  class="material-symbols-outlined">local_fire_department</span>Discounts</a>
             </li>
-            <li class="  center nav-item px-3 ">
+            <li class="  center nav-item px-3 py-3">
               <a class=" active d-flex jump" href="./discounts.html">
                 <span  class=" material-symbols-outlined">shopping_bag</span>Store</a>
             </li>
-            <li class="center nav-item px-3 ">
+            <li class="center nav-item px-3 py-3">
               <a class="active d-flex jump" href="./contact.php">
                 <span class="material-symbols-outlined">contacts_product</span>Contact</a>
             </li>
@@ -77,69 +77,72 @@
   
   <!-- https://picsum.photos/300/200 id carousel  carouselID-->
   <section id="carousel" class="">
-  <div id="carouselId" class=" carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li
-        data-bs-target="#carouselId"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="First slide"
-      ></li>
-      <li
-        data-bs-target="#carouselId"
-        data-bs-slide-to="1"
-        aria-label="Second slide"
-      ></li>
-      <li
-        data-bs-target="#carouselId"
-        data-bs-slide-to="2"
-        aria-label="Third slide"
-      ></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
+  <div id="carouselId" class=" carousel slide   mb-3" data-bs-ride="carousel">
+    <div class="carousel-inner " role="listbox">
       <div class="carousel-item active">
         <img
-          src="https://picsum.photos/300/200"
+          src="https://picsum.photos/300/100"
           class="w-100 d-block rounded-4"
           alt="First slide"
+          
         />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-        <div class="carousel-caption  d-md-block">
-          <h3>Title</h3>
-          <p>Description</p>
+        <div class="carousel-caption text-lg-start caption-top ">
+          <h3>repudiandae?</h3>
+          <div class="row  d-flex justify-content-md-center ">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="row col-8">
+              <div class="col-6 ">
+                <button class="buttonEmi buttonBlue">&nbsp;&nbsp;Buy&nbsp;</button>
+              </div>
+              <div class="col-6">
+                <button class="buttonEmi buttonOrange">More</button>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
       <div class="carousel-item">
         <img
-          src="https://picsum.photos/300/200"
+          src="https://picsum.photos/300/100"
           class="w-100 d-block rounded-4"
           alt="Second slide"
         />
-        <div class="carousel-caption  d-md-block">
-          <h3 class="fs-3 ">Title</h3>
-          <p>Description</p>
-        </div>
+        <div class="carousel-caption text-lg-end    d-md-block">
+          <h3>repudiandae?</h3>
+          <div class="row d-flex  justify-content-md-center">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="row col-8 ">
+              <div class="col-6 ">
+                <button class="buttonEmi buttonBlue">&nbsp;&nbsp;Buy&nbsp;</button>
+              </div>
+              <div class="col-6">
+                <button class="buttonEmi buttonOrange">More</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>  
       </div>
-      <div class="carousel-item spacer carouselBg  ">
+      <div class="carousel-item  carouselBg  ">
         <img
-        src="https://picsum.photos/300/200"
+        src="https://picsum.photos/300/100"
         class="w-100 d-block rounded-4"
         alt="Third slide"
         />
-        <div class="carousel-caption    d-md-block ">
-          <button class="btn btn-danger ">hello danger</button>
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-
-
-        <div class="carousel-caption d-none d-md-block">
-          <h3>Title</h3>
-          <p>Description</p>
+        <div class="carousel-caption   d-md-block">
+          <h3>repudiandae?</h3>
+          <div class="row  d-flex justify-content-md-center   ">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="row col-8  ">
+              <div class="col-6 ">
+                <button class="buttonEmi buttonBlue">&nbsp;&nbsp;Buy&nbsp;</button>
+              </div>
+              <div class="col-6">
+                <button class="buttonEmi buttonOrange">More</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -163,7 +166,10 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+  </section>
+  <section>
+
+    
   </section>
 </body>
 </html>

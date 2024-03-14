@@ -1,19 +1,5 @@
-1.-
-  remake nav.{
-    it must fuze with the background colors
-    elements must be in compnay of an icon or only icons.
-    elements need to have opacity-50 and be in text-light or similar
-    while hovering no opacity and makes a little jump (animation pending). 
-    Change logo to something more professional and futuristic.
-  } 
-
-contact{
-  fix color of letters in navbar
-}
 
 main{
-  fix navbar to universal styles.
-  add images
   
   divide into various sections
     main hero with product in two rows{
@@ -82,4 +68,10 @@ main{
  incluir video https://www.youtube.com/watch?v=2-R-F-A48FI
     asd
 php artisan serve
+
+Lorem ipsum dolor sit, amet consectetur 
+adipisicing elit. Totam saepe fuga assumenda 
+cupiditate, dolor sed quis culpa error,
+ ex voluptatum quo. Debitis id iusto
+  tempore voluptates dicta, ipsum laborum minima?
 }

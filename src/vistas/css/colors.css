@@ -1,61 +1,23 @@
-.shadesPurple {
-  background-color: rgb(45, 13, 148);
+
+.box {
+  align-items: center;
+  border: solid black 2px;
+  display: flex;
+  height: 10em;
+  justify-content: center;
+  width: 10em;
 }
-
-.shadesBlue {
-  background-color: #080846;
-
-}
-
-.shadesBlueTwo {
-  background-color: #463db2;
-  
-}
-
-.shadesBlueThree {
-  background-color: #5FBDFF;
-}
-
-.shadesBlueFour {
-  background-color: #610C9F;
-}
-
-.shadesPurpleFive {
-  background-color: #756AB6;
-}
-
-.shadesPink {
-  background-color: #E9A8F2;
-}
-
-
 
 .gradientOne {
-  background: rgb(2, 0, 36);
   background:
-       linear-gradient(356deg, rgba(2, 0, 36, 1) 0%,
-      rgba(8, 8, 124, 1) 13%,
-      rgba(0, 212, 255, 1) 100%);
-}
-/* Background for hero div. */
-.spacer{
-  
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.layer1{
-  background-image: url('../assets/images/waves_two.svg');
-}
-.layer2{
-  background-image: url('../assets/images/wave-haikeipart2.svg');
+linear-gradient(356deg, rgba(2, 0, 36, 1) 0%,
+rgba(8, 8, 124, 1) 13%,
+rgb(225, 0, 255) 100%);
+  background: rgb(2, 0, 36);
 }
 
-/* End of background for hero div */
-
-/* Text styles */
-h1 {
+h1,h2 {
+  font-family: 'Press Start 2P', system-ui;
   font-size: 48px; /* Adjust as needed */
   background-image: linear-gradient(to right, yellow, red);
   background-clip: text;
@@ -63,18 +25,45 @@ h1 {
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent; /* For compatibility */
 }
+.layer1 {
+  background-image: url('../assets/images/waves_two.svg');
+}
 
-/* flex direction 
-  flex
-  flex wrap
-  display: flex
-  
-*/
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 10em;
-  height: 10em;
-  border: solid black 2px;
+.layer2 {
+  background-image: url('../assets/images/wave-haikeipart2.svg');
+}
+
+.shadesBlue {
+  background-color: #080846;
+}
+
+.shadesBlueFour {
+  background-color: #610C9F;
+}
+
+.shadesBlueThree {
+  background-color: #5FBDFF;
+}
+
+.shadesBlueTwo {
+  background-color: #463db2;
+}
+
+.shadesPink {
+  background-color: #E9A8F2;
+}
+
+.shadesPurple {
+  background-color: rgb(45, 13, 148);
+}
+
+.shadesPurpleFive {
+  background-color: #756AB6;
+}
+
+.spacer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
